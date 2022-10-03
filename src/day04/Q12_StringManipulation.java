@@ -12,8 +12,9 @@ public class Q12_StringManipulation {
         if (word.contains(" ")){
             System.out.println("girdi boşluk  içeriyor");
         }if (word.length()>=0){
-            System.out.println("girdi  dutluk değil");
-        }else if (word.length()==0) System.out.println("girdi dutluk");
+            System.out.println("girdi  dutluk değil :)");
+        }else if (word.length()==0) System.out.println("girdi dutluk :)");
+
 
 
 
