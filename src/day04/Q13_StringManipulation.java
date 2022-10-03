@@ -9,7 +9,9 @@ public class Q13_StringManipulation {
         Scanner scan = new Scanner(System.in);
         System.out.println("4 hafli kelime girin");
         String word = scan.nextLine();
-        System.out.println(word.substring(word.length()-1)+word.substring(2,3)+word.substring(1,2)+word.substring(0,1));
+        if(word.length()<=4){
+        System.out.println("Girilen kelimenin ters yazdırılmış hali ="+word.substring(word.length()-1)+word.substring(2,3)+word.substring(1,2)+word.substring(0,1));}
+        else System.out.println("4 hafli bir kelime giriniz");
 
 
 
