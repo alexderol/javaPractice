@@ -9,7 +9,7 @@ public class Q03_MethodCreation {
 public static void main(String[] args) {
     Scanner scan=new Scanner(System.in);
     System.out.print("bir sayı giriniz (cm): ");
-    double sayi= scan.nextInt();
+    double sayi= scan.nextDouble();
     System.out.println(metrecevirici(sayi));
     System.out.println(kmcevirici(sayi));
 
