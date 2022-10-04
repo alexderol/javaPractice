@@ -25,16 +25,26 @@ public class Q01_MethodCreation {
     }
 
     private static void xyzVarMiVoid(String word) {
-        System.out.println(word.contains("xyz")?"true":"false");//bu da olabilir aşağıdaki de olabilir
+        System.out.println(word.contains("xyz") ? "true" : "false");//bu da olabilir aşağıdaki de olabilir
     }
 
     private static boolean xyzVarMı(String word) {
-        if(word.contains("xyz")){
+        if (word.contains("xyz")) {
             return true;
-                    }else
-                        return false;
-
+        } else
+            return false;
 
 
     }
+     /*
+     private static String xyzVarMi(String str) {
+        String sonuc = "";
+        if (str.contains("xyz")) {
+            sonuc = "var";
+        } else
+            sonuc = "yok";
+        return sonuc;
+    }
+     */
 }
+
