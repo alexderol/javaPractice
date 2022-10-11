@@ -31,6 +31,18 @@ public class Q08_ForLoop {
             System.out.println("iki sayı arasındaki sayıların toplamı= "+toplam);
 
         }else System.out.println("sayılar eşit");
+
+        /*
+        Cuneyt bey den
+        int sayi1 = scan.nextInt();
+        int sayi2= scan.nextInt();
+        int toplam=0;
+        for (int i = (sayi1<sayi2 ? sayi1 : sayi2); i<= (sayi1>sayi2 ? sayi1 : sayi2); i++) {
+            toplam+=i;
+        }System.out.println("toplamları = " + toplam);
+         */
+
     }
+
 
 }
