@@ -23,6 +23,8 @@ public class Q07_DoWhile {
 
         System.out.println("*****for çözüm*******");
 
+        
+
 
 
     }
