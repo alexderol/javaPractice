@@ -2,7 +2,7 @@ package dayForMe;
 
 import java.util.Scanner;
 
-public class ex02 {
+public class ex02_baklava {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("baklava dilimi boyutu için bir sayı giriniz");
@@ -12,36 +12,36 @@ public class ex02 {
 
         /*
 
-         *
-         * *
-         * * *
-         * * * *
-         * * * * *
-         * * * *
-         * * *
-         * *
-         *
+               *
+              * *
+             * * *
+            * * * *
+           * * * * *
+            * * * *
+             * * *
+              * *
+               *
 
 
 
          *///yıldızın üst tarafı
-        for (int i = 1; i <=boyut ; i++) {
-            for (int j = boyut; j >i ; j--) {
+        for (int i = 1; i <=boyut ; i++) {//outer for
+            for (int j = boyut; j >i ; j--) {//boşluk kontrolü
                 System.out.print(" ");
 
             }
-            for (int j = 1; j <=i ; j++) {
+            for (int j = 1; j <=i ; j++) { //yıldız kontrolu
                 System.out.print("*"+" ");
 
             }
             System.out.println();
         }
         //alt
-        for (int i = 1; i <=boyut ; i++) {
-            for (int j = 1; j <=i ; j++) {
+        for (int i = 1; i <=boyut ; i++) {//outer for
+            for (int j = 1; j <=i ; j++) {//boşluk
                 System.out.print(" ");
             }
-            for (int j = boyut; j >i ; j--) {
+            for (int j = boyut; j >i ; j--) {//yıldız kontrolu
                 System.out.print("*"+" ");
             }
             System.out.println();
